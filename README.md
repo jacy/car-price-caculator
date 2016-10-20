@@ -2,10 +2,14 @@ If you want to buy a car in philippines, you’ll notice the difference of price
 1. two cars, for example Jeep Grand Cherokee 6.4L and BMW M2 3.0L, the tax is different, 6.4L car will have higher tax rate
 2. Two cars, same capacity in ccm like 3.0L, the cars imported from USA and Japan is comparatively cheaper than the car from Europe
 If we have a table about import tax rate of as below:
-Country		<=2.0L		>2.0L & <= 5.0L		>5.0L
-Europe		100%		120%				200%
-USA			75%			90%					150%
-Japan		70%			80%					135%
+
+> Country		<=2.0L		>2.0L & <= 5.0L		>5.0L
+
+> Europe		100%		120%				200%
+
+> USA			75%			90%					150%
+
+> Japan		70%			80%					135%
 
 Also if you want to buy anything in philippines, you need to pay VAT 12%
 Now please write an program to calculate the price end user should pay, we assume the formula is
