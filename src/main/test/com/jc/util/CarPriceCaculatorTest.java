@@ -17,6 +17,7 @@ public class CarPriceCaculatorTest {
 		assertEquals(roundDown(78725.36), CarPriceCaculator.priceInUSD(new CarItem(USA, BigDecimal.valueOf(36995), 3.6)));
 		try {
 			CarPriceCaculator.priceInUSD(new CarItem(CHINA, BigDecimal.valueOf(6000), 1));
+			fail();
 		} catch (RuntimeException e) {
 			assertEquals("CHINA not support", e.getMessage());
 		}
@@ -29,6 +30,7 @@ public class CarPriceCaculatorTest {
 		assertEquals(roundDown(3700091.92), CarPriceCaculator.priceInPhp(new CarItem(USA, BigDecimal.valueOf(36995), 3.6)));
 		try {
 			CarPriceCaculator.priceInPhp(new CarItem(CHINA, BigDecimal.valueOf(6000), 1));
+			fail();
 		} catch (RuntimeException e) {
 			assertEquals("CHINA not support", e.getMessage());
 		}
