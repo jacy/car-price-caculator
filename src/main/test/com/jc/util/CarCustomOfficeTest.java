@@ -43,6 +43,7 @@ public class CarCustomOfficeTest {
 
 		try {
 			caculateTax(new CarItem(EUROPE, BigDecimal.valueOf(1), 0));
+			fail();
 		} catch (RuntimeException e) {
 			assertEquals("Displacement is out of range", e.getMessage());
 		}
